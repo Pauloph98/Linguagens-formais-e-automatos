@@ -21,7 +21,7 @@ def main():
     endereco = ""
     pagamento = ""
 
-    print("--- Chatbot BoaHamburgueria (Python Version) ---")
+    print("--- Chatbot BoaHamburgueria ---")
     print("Bot: Olá! Digite 'começar' para fazer seu pedido.")
 
     while True:
@@ -225,4 +225,5 @@ def mostrar_resumo(nome, itens, beb, tipo, end):
 if __name__ == "__main__":
 
     main()
+
 

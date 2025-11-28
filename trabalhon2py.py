@@ -1,19 +1,19 @@
 import sys
 
 def main():
-    # Definição dos Estados (usamos strings para facilitar em Python)
+ 
     state = "SAUDACAO"
     
-    # Variáveis de fluxo
+    
     nome_cliente = ""
     
-    # Variáveis temporárias (para o item sendo escolhido agora)
+   
     temp_burger = ""
     temp_descricao = ""
     temp_qtd = ""
     temp_ponto = ""
     
-    # Variável acumuladora (Lista de tudo que foi pedido)
+ 
     lista_itens = "" 
     
     bebida = ""
@@ -225,3 +225,4 @@ def mostrar_resumo(nome, itens, beb, tipo, end):
 if __name__ == "__main__":
 
     main()
+

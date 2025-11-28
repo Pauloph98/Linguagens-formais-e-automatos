@@ -32,7 +32,6 @@ def main():
         except EOFError:
             break # Evita erro em alguns terminais online
 
-        # --- LÓGICA DO AUTÔMATO (IF/ELIF agindo como Switch Case de Estados) ---
         
         if state == "SAUDACAO":
             if texto_input.lower() in ["começar", "comecar", "quero"]:
@@ -224,4 +223,5 @@ def mostrar_resumo(nome, itens, beb, tipo, end):
     print("1 - CONFIRMAR | 2 - REFAZER DO ZERO | 3 - CANCELAR")
 
 if __name__ == "__main__":
+
     main()
